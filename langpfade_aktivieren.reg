@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Hebt die 260-Zeichen-Grenze fuer Dateipfade auf (Windows Long Paths).
+; Behebt "WinError 206 - Der Dateiname oder die Erweiterung ist zu lang".
+; Doppelklicken, UAC-Abfrage bestaetigen, danach PC neu starten.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001

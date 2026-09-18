@@ -1,0 +1,21 @@
+# Laufzeitordner und Protokoll des Watchers (werden beim Start automatisch angelegt)
+Eingang/
+Ausgang/
+Verarbeitet/
+watch_log.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# PDFs und Konvertierungsergebnisse gehoeren nicht ins Repository
+*.pdf
+
+# Fallback-Datei, die kontextmenu_hinzufuegen.bat bei Bedarf erzeugt (enthaelt den lokalen Pfad)
+kontextmenu_hinzufuegen.reg
+
+# Interne Arbeitsdateien des Claude-Projekts
+CLAUDE.md
+PROJEKT_STATUS.md
+00_index.md
+INITIALPROMPT.md
